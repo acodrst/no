@@ -61,5 +61,5 @@ While the tags array exists, it is empty.
 
 ### Kinds
 
-A kind value of 1 is always used.  Nostr NIP-10 specifies this as a text note.
+A kind value of 1 is always used.  This means that the content, per [Nostr NIP-10](https://github.com/nostr-protocol/nips/blob/master/10.md), is a human-readable text note, and markup languages such as markdown and HTML SHOULD NOT be used. 
  
